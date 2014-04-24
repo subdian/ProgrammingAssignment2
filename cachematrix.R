@@ -1,4 +1,4 @@
-## These functions provide caching behaviour for the computing the inverse of a matrix
+## These functions provide caching behaviour for computing the inverse of a matrix
 ## makeCacheMatrix creates a special amtrix object with cacheable inverse
 ## cacheSolve does the work of computing the inverse, caching, and returning the result
 
