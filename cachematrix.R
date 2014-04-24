@@ -4,10 +4,10 @@
 
 ## This function creates a special "Matrix" object that
 ## has functions to:
-## set the value of the matrix
-## get the value of the matrix
-## get the inverse of the matrix
-## set the inverse of the matrix
+## sets the value of the matrix
+## gets the value of the matrix
+## gets the inverse of the matrix
+## sets the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function computes the inverse of the special "matrix" created with makeCacheMatrix
+## This function computes the inverse of the special "matrix" object created with makeCacheMatrix
 ## It first checks if the inverse has been calculated. If it has been, it uses the getinverse function
 ## to return the value, otherwise it calculates the inverse
 
